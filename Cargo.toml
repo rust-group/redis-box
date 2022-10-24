@@ -1,0 +1,19 @@
+[package]
+name = "redis-box"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+    "redis-benchmark",
+    "redis-check-aof",
+    "redis-check-rdb",
+    "redis-cli",
+    "redis-core",
+    "redis-sentinel",
+    "redis-server",
+]
+
+[dependencies]
